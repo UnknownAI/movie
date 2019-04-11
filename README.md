@@ -2,7 +2,7 @@
 
 Одностраничное приложение на ReactJS, с реализацией сервера на Node.js и базой данных MongoDB 
 
-![main screen] (https://github.com/UnknownAI/add_files/blob/master/screens/main.png)
+![main screen](https://github.com/UnknownAI/add_files/raw/master/screens/main.png)
 ## Структура приложения 
 ### Клиенсткая часть приложения
 ```

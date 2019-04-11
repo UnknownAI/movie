@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
-import './scss/Grid.scss'
+import './scss/List.scss'
+
 class Movie extends Component {
   constructor(){
     super();

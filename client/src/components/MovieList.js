@@ -4,7 +4,7 @@ import Search from './Search';
 import Sort from './Sort';
 import SearchError from './SearchError';
 import Adder from './Adder'
-import './scss/Grid.scss'
+import './scss/List.scss'
 import './scss/Actions.scss'
 
 class MovieList extends Component {

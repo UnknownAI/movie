@@ -27,8 +27,13 @@ class Search extends React.Component {
       subject: this.state.subject,
       filter: this.state.filter
     }
-
-    this.props.onSearch(searchSubject);
+    if(searchSubject.subject === ''){
+      alert('Please, enter search subject')
+    }else if(searchSubject.filter === ''){
+      alert('Please, choose search filter ')
+    }else{
+      this.props.onSearch(searchSubject);
+    }
   }
 
   render(){

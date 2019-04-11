@@ -1,5 +1,5 @@
 import React from 'react';
-import './Form.scss';
+import './scss/Form.scss';
 
 
 class Form extends React.Component {

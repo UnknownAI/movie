@@ -18,7 +18,7 @@ app.use(function(err, req, res, next){
   res.status(422).send({error: err.message});
 });
 
-//listen for request
+
 app.listen(process.env.port || 4000, function(){
   console.log("Hello, now listening for request ")
 })

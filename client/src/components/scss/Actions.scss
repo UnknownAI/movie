@@ -1,0 +1,120 @@
+$grey: #5C5E5E;
+
+.Actions{
+   width: 100%;
+   display: flex;
+   justify-content: space-between;
+   align-items:baseline;
+   margin-top:20px;
+   margin-bottom: 30px;
+}
+
+.Actions__Wrapper{
+  flex-basis: 25%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+
+.SearchForm{
+  flex-basis: 35%;
+  &__Subject{
+    width: 100%;
+    border: 0;
+    border-bottom: 1px solid #e1e2e6;
+    padding: 10px;
+    margin-bottom: 7px;
+    background-color: transparent;
+    font-size: 14px;
+    &:focus{
+      outline: 0;
+    }
+  }
+
+  &__Actions{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  &__Option{
+    margin-right: 15px;
+    color: $grey;
+    font-size: 12px;
+  }
+
+  &__Radio{
+    margin-right: 5px;
+  }
+
+  &__Button{
+    color: $grey;
+    border: 1px solid $grey;
+    padding: 5px 15px;
+    border-radius: 15px;
+    background-color: transparent;
+    cursor: pointer;
+      outline: none;
+  }
+}
+
+.SortForm{
+  &__Button{
+    background-color: #ffb64d;
+    padding: 10px 20px;
+    color: #fff;
+    font-weight: 400;
+    font-size: 14px;
+    border: 0;
+    border-radius: 20px;
+    cursor: pointer;
+    &__Icon{
+      display: inline-block;
+      width: 15px;
+      height:15px;
+      background-image: url('../img/sort.png');
+      color: $grey;
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+    }
+  }
+}
+
+.Adder{
+  &__Button{
+    background-color: #4680fe;
+    padding: 10px 20px;
+    color: #fff;
+    font-weight: 400;
+    font-size: 14px;
+    border: 0;
+    border-radius: 20px;
+    cursor: pointer;
+  }
+}
+
+.SearchError{
+  width: 600px;
+  margin: auto;
+  margin-top: 70px;
+
+  &__text{
+    text-align: center;
+    font-size: 24px;
+    margin-bottom: 20px;
+    color: $grey;
+  }
+  
+  &__img{
+    margin: auto;
+    width: 180px;
+    height: 180px;
+    background-image: url('../img/cry.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+}

@@ -1,0 +1,122 @@
+.MovieFormWrapper, .Shadow{
+  width: 100%;
+  height: 100vh;
+  position: fixed;
+}
+
+.Shadow{
+  background-color: #000;
+  top:0;
+  left:0;
+  opacity: 0.3;
+}
+
+.MovieEditor{
+  width: 500px;
+  top:50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  position: fixed;
+  background-color: #fff;
+  padding: 25px 0;
+  box-shadow: 0 0 3px 0 rgba(0, 0, 0, 0.1), 0 1px 3px 0 rgba(0, 0, 0, 0.1);
+  border-radius: 3px;
+  &__Title{
+    text-align: center;
+    margin: auto;
+    width: 80%;
+    border-bottom: 1.5px solid #4680fe;
+    color: #4680fe;
+    padding: 0 0 20px 0;
+    text-transform: uppercase;
+    font-weight: 400;
+    margin-bottom: 15px;
+  }
+  &__Form{
+    width: 70%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    font-size: 16px;
+    &__input{
+      flex-basis: 100%;
+      border: 0;
+      margin-top: 25px;
+      border-bottom: 1px solid gray;
+      font-weight: 400;
+      padding: 5px;
+          &:focus {
+                  outline: 0;
+          }
+
+    }
+    &__format{
+      flex-basis: 100%;
+      margin-top: 25px;
+      padding: 5px;
+      border: 0;
+      border-bottom: 1px solid gray;
+      cursor: pointer;
+      &:focus {
+              outline: 0;
+
+      }
+    }
+
+    &__button{
+      width: 100%;
+      margin-top: 17px;
+      display: flex;
+      justify-content: space-around;
+      flex-direction: row-reverse;
+      &-save{
+        flex-basis: 47%;
+          border: 0 none;
+          border-radius: 24px;
+          padding: 10px 15px;
+          margin: 10px;
+          cursor: pointer;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          text-align: center;
+          line-height: 1.3;
+          font-size: 15px;
+          color: #fff;
+          font-weight: 400;
+          background: #4680fe;
+
+          &:focus {
+              outline: 0;
+          }
+      }
+      &-close{
+        flex-basis: 47%;
+        border: 1px solid #4680fe;
+        color:  #4680fe;
+        border-radius: 24px;
+        padding: 10px 15px;
+        margin: 10px;
+        cursor: pointer;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        line-height: 1.3;
+        font-size: 15px;
+        font-weight: 400;
+        background-color: #fff;
+        &:focus {
+            outline: 0;
+        }
+      }
+    }
+  }
+}
+
+.label-actors{
+  padding: 0 5px;
+  font-style: italic;
+  opacity: 0.5;
+  font-size: 12px;
+}

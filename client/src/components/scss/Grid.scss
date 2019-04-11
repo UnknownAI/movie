@@ -1,0 +1,84 @@
+
+
+ul{
+  list-style-type: none;
+}
+
+.Container{
+  width: 900px;
+  margin: auto;
+}
+.MovieList{
+  display: flex;
+  flex-direction: column;
+  &__Item{
+    flex-basis: 100%;
+    align-items: center;
+    background-color: #fff;
+    margin-bottom: 25px;
+    color: #262f40;
+    box-shadow: 0 0 3px 0 rgba(0, 0, 0, 0.1), 0 1px 3px 0 rgba(0, 0, 0, 0.1);
+    border-radius: 3px;
+  }
+
+  &__Wrapper{
+    width: 100%;
+    padding: 20px;
+  }
+
+  &__Header{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+  }
+  &__Title{
+    font-size: 20px;
+    font-weight: 400;
+  }
+  &__Actions{
+    flex-basis: 10%;
+    display: flex;
+    justify-content: space-between;
+  }
+  &__FullInfo{
+    padding-top: 10px;
+    text-align: left;
+    p{
+      margin-bottom: 10px;
+    }
+  }
+  &__Btn{
+    padding: 3px;
+    display: block;
+    border: 0;
+    background-color: inherit;
+    outline: none;
+    cursor: pointer;
+    &-show{
+      width: 27px;
+      height: 27px;
+      background-image: url('../img/show.png');
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+    }
+    &-delete{
+      width: 27px;
+      height: 27px;
+      background-image: url('../img/delete.png');
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+    }
+  }
+
+}
+
+
+.DeleteIcon{
+
+}
+.ShowIcon{
+
+
+}

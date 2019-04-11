@@ -70,7 +70,7 @@ npm run dev
 #Запуск только серверной части (http://localhost:4000)
 npm run server 
 
-#Запуск только клиентской части (http://localhost:4000)
+#Запуск только клиентской части (http://localhost:3000)
 npm run client
 
 ```
